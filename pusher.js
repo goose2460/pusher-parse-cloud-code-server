@@ -1,6 +1,6 @@
 module.exports = (function() {
-  var jssha = require('cloud/jssha256.js');
-  var md5 = require('cloud/md5.js');
+  var jssha = require('cloud/pusher/jssha256.js');
+  var md5 = require('cloud/pusher/md5.js');
 
   var Pusher = function(options) {
     this.options = options;
